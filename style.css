@@ -1,0 +1,233 @@
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.inner-container{
+    width: 100vw;
+    height: max-content;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(6, 6, 39, 0.9);
+    color: white;
+}
+
+.main-content-container{
+    position: relative;
+}
+
+.tiny{
+    font-size: 8px;
+    font-family: 'Lobster', cursive;
+    color: rgb(192, 189, 189);
+    
+}
+
+.navbar{
+    border-bottom: 1px solid rgb(105, 102, 102);
+} 
+
+.navbar-brand, .navbar-brand:hover, .navbar-brand:active{
+    color: white;
+}
+
+.nav-item{
+    display: flex;
+    list-style: none;
+}
+
+.nav-item::before{
+    content: ".";
+    color: rgb(255, 174, 0);
+}
+
+.nav-link{
+    color: rgb(184, 180, 180);
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.nav-link:hover, .nav-link:active{
+    color: rgb(255, 174, 0);
+}
+
+.active{
+    color: rgb(255, 174, 0);
+}
+
+.fa-search{
+    color: rgb(184, 180, 180);
+    font-size: 11px;
+}
+
+
+h1{
+    font-size: 250px;
+    color: rgb(196, 191, 191);
+}
+
+.btn{
+    background-color: transparent;
+    color: rgb(192, 189, 189);
+    border: 1px solid rgb(175, 124, 13);
+}
+
+.btn:hover{
+    color: white;
+}
+
+.left{
+    color: rgb(163, 162, 162);
+}
+.left a{
+    color: rgb(163, 162, 162);
+}
+
+.contact-header{
+    font-size: 14px;
+    color: rgb(163, 162, 162);
+}
+
+.fa-envelope, .fa-phone, .fa-clock{
+    color: rgb(175, 124, 13);
+}
+
+.fa-hand-pointer{
+    font-size: 32px;
+    color: rgb(255, 174, 0);
+}
+
+.first-row{
+    display: flex;
+    border-bottom: 1px solid rgb(141, 141, 141);
+}
+
+.second-row{
+    display: flex;
+}
+
+.services{
+    background-color: white;
+    color: rgb(87, 85, 85);
+    text-align: center;
+    height: 250px;
+    width: 25%;
+}
+
+.services:hover{
+    background-color: rgb(255, 174, 0);
+    color:white;
+    transition: background-color 0.9s, color 0.6s;
+}
+
+.top-service{
+    border-right: 1px solid rgb(141, 141, 141);
+}
+
+.middle-section{
+    width: 50%;
+    background-color: rgb(6, 6, 39);
+    color: white;
+    border-right: 1px solid rgb(141, 141, 141);
+}
+
+.fa-home, .fa-btc, .fa-car, .fa-money-bill-alt{
+    font-size: 80px;
+}
+
+.fa-child, .fa-copyright{
+    font-size: 100px;
+}
+
+.case-number{
+    font-size: 12px;
+    color: rgb(146, 143, 143);
+    font-weight: 600;
+}
+
+.practice-area{
+    color: rgb(153, 148, 148);
+    font-weight: 500;
+}
+
+h2, h3, h4, h5, h6{
+    font-family: 'Merriweather', serif;
+}
+
+@media screen and (max-width: 992px){
+    /* .navbar-toggler{
+        color: white;
+        border: 1px solid rgb(105, 102, 102);
+    } */
+
+    h1{
+        font-size: 80px;
+        position: absolute;
+        bottom: 10%;
+    }
+
+    
+    .first-section{
+        flex-direction: column;
+    }
+
+    .lawyer-img{
+        width: 80vw;
+    }
+
+    .white-div{
+        height: 180px;
+        width: 50%;
+    }
+
+    .top-div{
+        border-bottom: 1px solid rgb(141, 141, 141);
+    }
+
+    .right-top-div{
+        border-right: 0px;
+    }
+
+    .middle-section{
+        width: 100%;
+        order: -1;
+        border: none;
+    }
+
+    .first-row{
+        flex-wrap: wrap;
+        border: none;
+    }
+
+    .second-row{
+        flex-wrap: wrap;
+        margin-bottom: 300px;
+    }
+
+    
+
+    .fa-home, .fa-btc, .fa-car, .fa-money-bill-alt{
+        font-size: 50px;
+    }
+    
+    .fa-child, .fa-copyright{
+        font-size: 80px;
+    }
+
+    .contact{
+        position: absolute;
+        bottom: -180px;
+        left: 0;
+        height: 100px;
+        margin-bottom: 20px;
+        padding-left: 12px;
+    } 
+
+    
+}
+
+
