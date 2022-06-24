@@ -5,7 +5,8 @@
 }
 
 body{
-    overflow-x: hidden;
+    overflow: hidden;
+    height: 100vh
 }
 
 .main-container{
